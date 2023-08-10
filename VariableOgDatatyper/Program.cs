@@ -6,8 +6,7 @@
         {
             int length = 16;
             double width = 5.1;
-            Console.WriteLine(length + width);
-            // resultatet er 21.1
+            Console.WriteLine(length + width); // resultatet er 21.1
 
             int area = length * width;
             /** Visual Studios compiler vil ikke oversætte din kode, men hvorfor?
@@ -22,8 +21,7 @@
              * double x int = double.
              */
 
-            Console.WriteLine(d);
-            //resultatet er 81.6
+            Console.WriteLine(d); //resultatet er 81.6
         }
     }
 }
